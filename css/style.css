@@ -1,0 +1,1075 @@
+/*
+COLOR PALETTE
+black: #0000,
+red: ##ee2524
+*/
+
+/*--------------
+index.html CSS
+----------------*/
+
+body {
+  font-family: "futura-pt",sans-serif!important;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.navbar {
+  margin-bottom: 0px!important;
+  height: 230px;
+  border-bottom: solid 4px #ee2524!important;
+}
+
+ .navbar-inverse {
+  background-color: #000!important;
+}
+
+.navbar-right {
+  padding-top: 100px;
+  margin-top: 16px;
+}
+
+.navbar .navbar-header {padding-top: 20px;}
+
+.navbar-brand img {
+  width: 140px;
+}
+
+#myNavbar .navbar-nav li a {
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #fff;
+  transition: .5s;
+}
+
+#myNavbar .navbar-nav li a:hover {
+  padding-bottom: 76px;
+  font-size: 18px;
+  color: #fff;
+}
+
+#myNavbar .navbar-nav li.active a {
+  background-color: #ee2524;
+  padding-bottom: 76px;
+}
+
+#myNavbar .navbar-nav li a:hover {
+  background-color: #ee2524;
+}
+
+#myNavbar .navbar-nav ul.dropdown-menu {
+  background-color: #ee2524;
+}
+
+#myNavbar .navbar-nav ul.dropdown-menu li a {
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+#myNavbar .navbar-nav ul.dropdown-menu li a:hover {
+  color: #ee2524;
+  background-color: #fff;
+}
+
+#myNavbar .navbar-nav ul.dropdown-menu li a:focus {
+  color: #ee2524;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand img {
+    width: 75px;
+  }
+
+  .navbar {
+    margin-bottom: 0px!important;
+    height: 150px;
+    border-bottom: solid 4px #ee2524!important;
+  }
+
+  .navbar-right {
+    padding-top: 50px;
+    margin-top: 0px;
+  }
+
+  #myNavbar .navbar-nav li.active a {
+    padding-bottom: 63px;
+  }
+
+  #myNavbar .navbar-nav li a:hover {
+    padding-bottom: 63px;
+  }
+
+  div.navbar-header .navbar-toggle {
+    margin-top: 36px;
+    margin-right: 32px;
+    border: none;
+  }
+
+  .navbar-inverse .navbar-collapse {
+    background-color: #000;
+    margin-top: -2px;
+    border: none;
+    text-align: center;
+  }
+
+  .navbar-right .dropdown-menu {
+      top: 98px;
+  }
+}
+
+
+#myCarousel {height: 77vh;}
+
+#myCarousel .glyphicon {
+  color: #fff;
+}
+#myCarousel .glyphicon:hover {
+  color: #ee2524;
+}
+
+#myCarousel .carousel-control {
+  background: none;
+}
+
+#myCarousel .carousel-inner .carousel-caption {
+  text-shadow: 0 1px 4px rgba(0,0,0,.9);
+  font-size:20px;
+  background-color: rgba(82,79,79, .7);
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-bottom: 40px;
+  line-height: 28px;
+}
+
+#myCarousel .carousel-inner .carousel-caption p {
+  padding-right: 18em;
+  padding-left: 18em;
+  font-size: 20px;
+}
+
+#myCarousel .carousel-inner .carousel-caption h3 {
+  font-size: 50px;
+  border-bottom: solid 2px #ee2524;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+#myCarousel .carousel-inner .carousel-caption p {
+  padding-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1150px) {
+  #myCarousel .carousel-inner .carousel-caption p {
+    padding-right: 10em;
+    padding-left: 10em;
+  }
+}
+
+@media only screen and (max-width: 891px) {
+  #myCarousel .carousel-inner .carousel-caption p {
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 16px;
+  }
+
+  #myCarousel .carousel-inner .carousel-caption h3 {
+    font-size: 28px;
+  }
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+
+.c2A {
+background-color: #ee2524;
+color: #fff;
+padding: 10px 0px;
+width: 300px;
+display: block;
+margin: 25px auto;
+margin-bottom: 35px;
+border: solid 2px #ee2524;
+
+text-shadow: none;
+
+transition: .5s;
+}
+
+.c2A:hover {
+background-color: #fff;
+color: #ee2524;
+border: solid 2px #ee2524;
+}
+
+.socialMediaDiv {
+  background-color: #000;
+  border-bottom: solid 4px #ee2524;
+}
+
+.socialMedia {
+  padding: 50px 0px;
+}
+
+.socialMedia .svg-inline--fa {
+    font-size: 80px;
+    display: block;
+    margin: 0px auto;
+    color: #fff;
+    opacity: .7;
+    transition: .3s;
+}
+
+.socialMedia .svg-inline--fa:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .socialMedia .logos {
+    padding-bottom: 12px;
+    padding-top: 12px;
+  }
+
+  .socialMedia {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+.mission {
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.mission .innerDiv {
+  margin-right: 5em;
+  margin-left: 5em;
+}
+
+.mission h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.mission h3 {
+  text-align: center;
+  color: #ee2524;
+  padding-bottom: 40px;
+}
+
+.mission blockquote span {
+  font-style: italic;
+  color: #777;
+}
+
+@media only screen and (max-width: 768px) {
+  .mission .innerDiv p{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .mission .innerDiv {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+}
+
+.services {
+  padding-top: 4em;
+  padding-bottom: 17em;
+}
+
+.services .serviceDiv {margin-bottom: 6em; height: 450px;}
+
+.services .serviceDiv img {
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 10px;
+}
+
+.services .serviceDiv p {font-size: 18px;}
+
+.services .serviceDiv h3 {
+  color: #ee2524;
+  text-align: center;
+}
+
+.services .serviceDiv a {
+  color: #fff;
+  background-color: #ee2524;
+  border: solid 2px #ee2524;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  width: 90%;
+  text-align: center;
+  transition: .5s;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0px;
+}
+
+.services .serviceDiv a:hover {
+  color: #ee2524;
+  border: solid 2px #ee2524;
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 991px) {
+  .services .serviceDiv {height: 518px; text-align: center;}
+}
+
+@media only screen and (max-width: 768px) {
+  .services .serviceDiv p {font-size: 16px; padding: 10px;}
+
+  .services .serviceDiv {height: 518px; text-align: center;}
+}
+
+@media only screen and (max-width: 767px) {
+  .services .serviceDiv {height: 400px; text-align: center;}
+}
+
+.parallax {
+  /* The image used */
+    background-image: url("../img/jpg/perslice.jpeg");
+
+    /* Set a specific height */
+    height: 1200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.desktop .inventorBlock {
+  text-align: center;
+  background-color: rgba(255,255,255, .5);
+  border-right: solid 2px #fff;
+  border-left: solid 2px #fff;
+  width: 1000px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.featInventor .inventorBlock img#inventor {
+  border-radius: 50%;
+  border: solid 5px #ee2524;
+  width: 250px;
+  position: relative;
+  bottom: 125px;
+}
+
+.featInventor .inventorBlock img#invention {
+  width: 250px;
+  margin-top: 30px;
+}
+
+.paddnimation {
+      -webkit-animation: paddnimation 3s;
+      animation -name: paddnimation;
+animation-duration: 3s;
+visibility: visible !important;
+
+  }
+
+  @keyframes paddnimation {
+      0% {transform: rotate(0deg)}
+      100% {transform: rotate(360deg)}
+  }
+
+  .star {
+        visibility: hidden;
+    }
+
+.mobile .inventorBlock {
+  text-align: center;
+  background-color: rgba(255,255,255, .5);
+  border-right: solid 2px #fff;
+  border-left: solid 2px #fff;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.featInventor .inventorBlock p {
+  font-size: 18px;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.featInventor .inventorBlock .innerContent {
+  position: relative;
+  bottom: 100px;
+}
+
+.featInventor .inventorBlock a {
+  color: #fff;
+  background-color: #ee2524;
+  border: solid 2px #ee2524;
+  padding: 10px 25px;
+  width: 300px;
+  display: block;
+  margin: 0px auto;
+  margin-top: 40px;
+  font-size: 18px;
+
+  transition: .3s;
+}
+
+.featInventor .inventorBlock a:hover {
+  color: #ee2524;
+  background-color: #fff;
+  border: solid 2px #ee2524;
+}
+
+.featInventor .inventorBlock h2 {
+  color: #ee2524;
+  font-size: 3em;
+}
+
+.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 1350px) {
+  .featInventor .inventorBlock {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile .inventorBlock {
+  width: 100%;
+}
+
+  .mobile .inventorBlock p {
+    font-size: 16px;
+  }
+}
+
+.theTeam {padding-bottom: 7em;}
+
+.theTeam .divHeader {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 55px;
+}
+
+.theTeam .divHeader h3 {
+  color: #666670;
+}
+
+.theTeam .divHeader span {
+  color: #ee2524;
+}
+
+.theTeam .row .team {
+padding: 1px 30px 30px 30px;
+box-shadow: 0px 1px 5px #444444;
+height: 320px;
+}
+
+.theTeam .row2 {
+  padding-top: 25px;
+}
+
+.theTeam .row2 .team {height: 350px;}
+
+.theTeam .team h3 {
+  color: #ee2524;
+  font-size: 22px;
+}
+
+.theTeam .team .title {
+  font-weight: bold;
+}
+
+.theTeam .team p {font-size: 18px;}
+
+.theTeam a {
+  color: #ee2524;
+  border: solid 2px #ee2524;
+  text-align: center;
+  padding: 10px ;
+  transition: .5s;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.theTeam a:hover {
+  color: #fff;
+  border: solid 2px #ee2524;
+  background-color: #ee2524;
+}
+
+@media only screen and (max-width: 1199px) {
+  .theTeam .teamDiv h3 {
+    font-size: 16px;
+  }
+
+  .theTeam .teamDiv p{
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+
+.theTeam .row .team {
+  height: 350px;
+}
+
+.theTeam .row2 .team {
+  height: 400px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+  .theTeam .teamDiv {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.theTeam .teamDiv p {
+  font-size: 16px;
+}
+
+.theTeam .row .team {
+  height: 250px;
+  padding: 1px 10px 30px 10px;
+}
+
+.theTeam .row2 .team {
+  height: 350px;
+  padding: 1px 10px 30px 10px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .theTeam .row2 .team {
+    height: 220px;
+  }
+}
+
+.clients {
+  padding-top: 75px;
+  padding-bottom: 135px;
+}
+
+.clients .divHeader {
+  text-align: center;
+}
+
+.clients .divHeader h3 {
+  color: #666670;
+}
+
+.clients .divContent {
+  padding-top: 35px;
+}
+
+.clients .clientLogos {
+  text-align: center;
+  opacity: 1;
+  transition: .3s;
+}
+
+.clients .clientLogos:hover {
+  opacity: .8;
+}
+
+@media only screen and (max-width: 768px) {
+  .clients .clientLogos {margin-bottom: 20px;}
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  font-size: 16px;
+}
+
+footer span {color: #ee2524;}
+
+footer h3 {
+  border-bottom: solid 2px #ee2524;
+  padding-bottom: 15px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+}
+
+footer ul a {
+  color: #fff;
+  transition: .3s;
+}
+
+footer ul a:hover {
+  color: #ee2524;
+}
+
+footer ul a:focus {
+  color: #ee2524;
+}
+
+footer ul .sMediaList {
+  display: flex;
+  padding-top: 10px;
+}
+
+footer ul .sMediaList li {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+footer .copyright {
+  text-align: center;
+  padding-top: 60px;
+  opacity: .8;
+}
+
+footer #back-to-top {
+  color: #fff;
+  background-color: #ee2524;
+  border-radius: 100%;
+  padding: 0px 20px;
+  font-size: 60px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  opacity: .7;
+  transition: .3s;
+  z-index: 5;
+}
+
+footer #back-to-top:hover {
+  color: #fff;
+  background-color: #ee2524;
+  border-radius: 100%;
+  padding: 0px 20px;
+  font-size: 60px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  opacity: 1;
+}
+
+.hideme
+{
+    opacity:0;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    text-align: left;
+  }
+
+  footer ul {
+    padding-bottom: 35px;
+    text-align: left;
+  }
+}
+
+
+/*--------------
+Service Pages CSS
+----------------*/
+
+.service {
+  height: 60vh;
+  text-align: center;
+  padding-top: 7em;
+  margin-bottom: 15em;
+}
+
+.service img {width: 300px; margin-bottom: 3em;}
+.service h1 {font-size: 4em; padding-bottom: 30px; color: #ee2524;}
+.service p {font-size: 20px;}
+
+@media only screen and (max-width: 645px) {
+  .service {
+    margin-bottom: 20em;
+  }
+
+  .service img {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 445px) {
+  .service {
+    margin-bottom: 25em;
+  }
+}
+
+
+/*--------------
+Contact Form Pages CSS
+----------------*/
+
+.form {
+  padding-top: 5em;
+  margin-bottom: 9em;
+}
+
+.form .divHeader {
+  text-align: center;
+}
+
+.form .divHeader span {
+  color: #ee2524;
+}
+
+.form .divHeader h1 {
+padding-bottom: 20px;
+font-size: 45px;
+}
+
+.form .divHeader h4 {
+padding-bottom: 40px;
+font-size: 30px;
+color: #444444;
+}
+
+.form button {
+  color: #fff;
+  background-color: #ee2524;
+  border: solid 2px #ee2524;
+  margin-top: 25px;
+  width: 100%;
+  font-size: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-group .required:after {
+  content:" *";
+  color: #ee2524;
+}
+
+@media only screen and (max-width: 768px) {
+  .form form{
+    margin-right: 2em;
+    margin-left: 2em;
+  }
+}
+
+/*--------------
+blog.html CSS
+----------------*/
+
+.blogPosts {margin-bottom: 8em;}
+
+.blogPosts .divHeader {
+  text-align: center;
+  padding-top: 7em;
+}
+
+.blogPosts .divHeader span {color: #ee2524;}
+
+.blogPosts .divHeader h4 {color: #444444;}
+
+.blogPosts .row h3 {color: #444444;}
+
+.blogPosts .blogs {
+  width: 50%;
+  height: 300px;
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
+
+.blogPosts .blogs .content {
+  background-color: #dbdbdb;
+  width: 300px;
+  height: 300px;
+}
+
+.blogPosts #blog1 {
+  float: right;
+  background-image: url("../img/jpg/blog_01.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.blogPosts #blog1 .title {
+  color: #fff;
+  text-shadow: 1px 2px 3px #333;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  transition: .3s;
+}
+
+.blogPosts #blog1 .title:hover {
+opacity: 1;
+}
+
+.blogPosts #blog1 h4 {
+  font-size: 25px;
+}
+
+.blogPosts #blog2 {
+  float: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.blogPosts #blog2 .title {
+  color: #fff;
+  text-shadow: 1px 2px 3px #333;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  transition: .3s;
+}
+
+.blogPosts #blog2 .title:hover {
+  opacity: 1;
+}
+
+.blogPosts #blog2 h4 {
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+  .blogPosts #blog1 {
+    float: none;
+    display: block;
+    margin: 0px auto;
+  }
+
+  .blogPosts #blog2 {
+    float: none;
+    display: block;
+    margin: 0px auto;
+  }
+
+  .blogPosts .blogs {
+    width: 100%;
+  }
+}
+
+/*--------------
+blog1.html CSS
+----------------*/
+
+.blog {
+  padding-top: 5em;
+  padding-bottom: 7em;
+}
+
+.blogImg {
+  background-image: url("../img/jpg/blog_01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.blog .blogImg .title {
+  color: #fff;
+  text-shadow: 1px 2px 3px #333;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+
+.blog .blogImg .title h4 {
+  font-size: 3em;
+}
+
+.blog .blogImg .title p {
+  font-size: 2em;
+}
+
+.blog .text {
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+.blog .text #publisher {
+  font-style: italic;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+.blog .text  {
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+
+/*--------------
+privay-policy.html CSS
+----------------*/
+
+.policy {
+  padding-top: 5em;
+  padding-bottom: 7em;
+}
+
+.policy .divHeader {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.policy .divHeader span {color: #ee2524;}
+
+
+.policy .content p {
+  padding-bottom: 3em;
+}
+
+.policy .content ol li {
+  padding-bottom: 2em;
+}
+
+
+/*--------------
+terms.html CSS
+----------------*/
+
+.terms {
+  padding-top: 5em;
+  padding-bottom: 7em;
+}
+
+.terms .divHeader {
+  text-align: center;
+  padding-bottom: 4em;
+}
+
+.terms .divHeader span {color: #ee2524;}
+
+
+.terms .content p {
+  padding-bottom: 3em;
+}
+
+
+/*--------------
+Team's Personal Pages CSS
+----------------*/
+
+.member {
+  padding-top: 5em;
+  padding-bottom: 7em;
+}
+
+.member .divHeader {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+
+.member .divHeader h2 {
+  padding-bottom: 10px;
+}
+
+.member .divHeader h3 {
+  color: #ee2524;
+}
+
+.member .text {
+  margin-left: 6em;
+  margin-right: 6em;
+  border-top: solid 2px #ee2524;
+  padding-top: 2em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.member .text p {
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .member .text {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
