@@ -24,14 +24,6 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.html">Home</a></li>
             <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clients<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://www.floydandmay.com" target="_blank">Floyd & May</a></li>
-                <li><a href="https://www.swipeze.com" target="_blank">Swipeze</a></li>
-                <li><a href="https://www.persliceusa.com" target="_blank">Perslice</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="%20pages/product-development.html">Product Development</a></li>
@@ -42,7 +34,6 @@
                 <li><a href="%20pages/business-development.html">Business Development</a></li>
               </ul>
             </li>
-            <li><a href="blog.html">Blog</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -215,6 +206,7 @@
     </section>
     <section>
       <div class="container services">
+        <h1 style="padding-bottom: 25px;" class="text-center">OUR SERVICES</h1>
         <div class="row">
           <div class="col-sm-4 serviceDiv">
             <img src="img/gif/productDevelopment.gif" alt="Product Development">
@@ -355,22 +347,48 @@
       </div>
     </section>
     <section>
-      <div class="container clients">
-        <div class="divHeader">
-          <h1>OUR CLIENTS</h1>
-          <h3>YOU DREAM... WE MAKE IT HAPPEN</h3>
+      <div class="container form">
+        <div class="divHeader text-center">
+          <h1>HAVE ANY QUESTIONS?</h1>
+          <h3>CONTACT US TODAY AND WE WILL RESPOND AS SOON AS POSSIBLE!</h3>
         </div>
-        <div class="divContent">
-          <div class="col-sm-4 col-sm-12 clientLogos">
-            <a href="https://www.swipeze.com" target="_blank"><img src="img/png/logos/swipeze_logo.png" alt="Swipeze" width="250px"></a>
+        <form>
+          <div class="form-group row">
+            <label for="firstName" class="col-sm-2 col-form-label text-right required">First Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="firstName" placeholder="First name" required>
+            </div>
           </div>
-          <div class="col-sm-4 col-sm-12 clientLogos">
-            <a href="https://www.floydandmay.com" target="_blank"><img src="img/png/logos/floydandmay_logo.png" alt="Floyd & May" width=""></a>
+          <div class="form-group row">
+            <label for="lastName" class="col-sm-2 col-form-label text-right required">Last Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="lastName" placeholder="Last name" required>
+            </div>
           </div>
-          <div class="col-sm-4 col-sm-12 clientLogos">
-            <a href="https://www.persliceusa.com" target="_blank"><img src="img/png/logos/perslice_logo.png" alt="Perslice" width="230px"></a>
+          <div class="form-group row">
+            <label for="email" class="col-sm-2 col-form-label text-right required">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="email" placeholder="example@email.com" required>
+            </div>
           </div>
-        </div>
+          <div class="form-group row">
+            <label for="phone" class="col-sm-2 col-form-label text-right">Phone Number</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="phone" placeholder="xxx-xxx-xxxx">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="message" class="col-sm-2 col-form-label text-right required">Message</label>
+            <div class="col-sm-10">
+              <textarea class="form-control" id="message" rows="3" placeholder="Type message" required></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-offset-2 col-sm-offset-4">
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
   </main>
