@@ -660,6 +660,28 @@ height: 320px;
   color: #ee2524;
 }
 
+input#submitButton {
+background-color: #ee2524;
+color: #fff;
+padding: 10px 0px;
+width: 300px;
+display: block;
+margin: 25px auto;
+margin-bottom: 35px;
+border: solid 2px #ee2524;
+font-size: 18px;
+
+text-shadow: none;
+
+transition: .5s;
+}
+
+input#submitButton:hover {
+background-color: #fff;
+color: #ee2524;
+border: solid 2px #ee2524;
+}
+
 footer {
   background-color: #000;
   color: #fff;
@@ -668,7 +690,7 @@ footer {
   font-size: 16px;
 }
 
-footer span {color: #ee2524;}
+span.i2vRed {color: #ee2524;}
 
 footer h3 {
   border-bottom: solid 2px #ee2524;
@@ -755,11 +777,11 @@ Service Pages CSS
 .service {
   height: 60vh;
   text-align: center;
-  padding-top: 7em;
-  margin-bottom: 15em;
+  padding-top: 5em;
+  margin-bottom: 20em;
 }
 
-.service img {width: 300px; margin-bottom: 3em;}
+.service img {width: 200px; margin-bottom: 3em;}
 .service h1 {font-size: 4em; padding-bottom: 30px; color: #ee2524;}
 .service p {font-size: 20px;}
 
@@ -1059,7 +1081,7 @@ Team's Personal Pages CSS
   padding-bottom: 1.5em;
 }
 
-.member .divHeader h2 {
+.member .divHeader h1 {
   padding-bottom: 10px;
 }
 
@@ -1076,7 +1098,7 @@ Team's Personal Pages CSS
   padding-left: 1em;
 }
 
-.member .text p {
+.member p.text {
   font-size: 18px;
   padding-bottom: 15px;
 }
