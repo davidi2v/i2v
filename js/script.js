@@ -71,12 +71,18 @@ function scrollContact () {
         scrollTop: $('#form').offset().top},'slow');
 }
 
+function contactHome () {
+        $('html,body').animate({
+        scrollTop: $('#form').offset().top},'slow');
+}
+
 /*-------------------------------------
 | Smooth Scroll
 -------------------------------------*/
 
 $("#back-to-top").click(scrollTop);
 $(".c2A").click(scrollContact);
+$("a#contactHome").click(contactHome);
 
 });
 

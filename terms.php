@@ -50,13 +50,7 @@
               // endif;
               ?>
             </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://www.invent2vision.com/page/contact-us">General Information</a></li>
-                <li><a href="#form">Idea Submissions</a></li>
-              </ul>
-            </li>
+            <li><a id="contactHome" href="index.php#form">Contact Us</a></li>
           </ul>
         </div>
       </div>
