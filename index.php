@@ -484,8 +484,8 @@ if (isset($_POST['lName']))
     <ul>
       <li><a href="index.php">Home</a></li>
       <li><a href="#form">Contact Us</a></li>
-      <li><a href="%20pages/terms.html">Terms and Conditions</a></li>
-      <li><a href="%20pages/privacy-policy.html">Privacy Policy</a></li>
+      <li><a href="terms.php">Terms and Conditions</a></li>
+      <li><a href="privacy.php">Privacy Policy</a></li>
     </ul>
     </div>
     <div class="col-lg-3">
