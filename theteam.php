@@ -64,7 +64,7 @@
 
 <section>
         <?php
-            if ($conn = mysqli_connect('localhost', 'root', 'root', 'Invent2Vision')):
+            if ($conn = mysqli_connect('radiant-citadel-69151.herokuapp.com', 'root', 'root', 'Invent2Vision')):
 
 
                 if (isset($_GET['id'])) {$id = $_GET['id'];}
