@@ -92,12 +92,12 @@ if (isset($_POST['lName']))
 
           		 ?>
                <ul class="dropdown-menu">
-                 <li><a href="services.php?id=1">Product Development</a></li>
-                 <li><a href="services.php?id=2">Manufacturing</a></li>
-                 <li><a href="services.php?id=3">Marketing</a></li>
-                 <li><a href="services.php?id=4">Fulfillment</a></li>
-                 <li><a href="services.php?id=5">Financial Management</a></li>
-                 <li><a href="services.php?id=6">Business Development</a></li>
+                 <li><a href="services/product-development.php">Product Development</a></li>
+                 <li><a href="services/manufacturing.php">Manufacturing</a></li>
+                 <li><a href="services/marketing.php">Marketing</a></li>
+                 <li><a href="services/fulfillment.php">Fulfillment</a></li>
+                 <li><a href="services/financial-management.php">Financial Management</a></li>
+                 <li><a href="services/business-development.php">Business Development</a></li>
                </ul>
               <?php
               // 	endwhile;
@@ -282,19 +282,19 @@ if (isset($_POST['lName']))
             <img src="img/gif/productDevelopment.gif" alt="Product Development">
             <h3>Product Development</h3>
             <p>From concept to reality we can bring your vision to life. Every project we review starts with a concept or prototype which we use to research and develop into...</p>
-            <a href="services.php?id=1">Read More</a>
+            <a href="services/product-development.php">Read More</a>
           </div>
           <div class="col-sm-4 serviceDiv">
             <img src="img/gif/manufacturing.gif" alt="Manufacturing">
             <h3>Manufacturing</h3>
             <p>We are able to provide everything from prototype to production, with full-service manufacturing for a wide array of industries. We are...</p>
-            <a href="services.php?id=2">Read More</a>
+            <a href="services/manufacturing.php">Read More</a>
           </div>
           <div class="col-sm-4 serviceDiv">
             <img src="img/gif/marketing.gif" alt="Marketing">
             <h3>Marketing</h3>
             <p>Let us help you develop your products marketing and service policies, programs and systems, to best support the strategic direction and...</p>
-            <a href="services.php?id=3">Read More</a>
+            <a href="services/marketing.php">Read More</a>
           </div>
         </div>
         <div class="row">
@@ -302,19 +302,19 @@ if (isset($_POST['lName']))
             <img src="img/gif/fulfillment.gif" alt="Fulfillment">
             <h3>Fulfillment</h3>
             <p>I2V can execute all your fulfillment needs. We handle drop shipments direct from the manufacturing plant, individual packages delivered from...</p>
-            <a href="services.php?id=4">Read More</a>
+            <a href="services/fulfillment.php">Read More</a>
           </div>
           <div class="col-sm-4 serviceDiv">
             <img src="img/gif/financialManagement.gif" alt="Financial Management">
             <h3>Financial Management</h3>
             <p>The Financial team can maximize the return on financial assets by establishing and enforcing financial policies, procedures, controls, and...</p>
-            <a href="services.php?id=5">Read More</a>
+            <a href="services/financial-management.php">Read More</a>
           </div>
           <div class="col-sm-4 serviceDiv">
             <img src="img/gif/businessDevelopment.gif" alt="Business Development">
             <h3>Business Development</h3>
             <p>We can advise and assist with the setup of the following business needs; trademark, patent, copyrights, corporate identification, business relationship...</p>
-            <a href="services.php?id=6">Read More</a>
+            <a href="services/business-development.php">Read More</a>
           </div>
         </div>
       </div
@@ -360,7 +360,7 @@ if (isset($_POST['lName']))
               <h3 class="name">Carlos Landazuri</h3>
               <p class="title">Chief Executive Officer</p>
               <p class="descr">Invent2Vision CEO and founder Carlos Landazuri has been developing new...</p>
-              <a href="theteam.php?id=1">Read More</a>
+              <a href="team/carlos-landazuri.php">Read More</a>
             </div>
           </div>
             <div class="col-sm-4 col-sm-12 teamDiv">
@@ -368,7 +368,7 @@ if (isset($_POST['lName']))
               <h3 class="name">Jessica Manuel O'Neal</h3>
               <p class="title">Chief Financial Officer</p>
               <p class="descr">Jessica Manuel-O’Neal serves as the CFO of Invent2Vision. She attended Pacific...</p>
-              <a href="theteam.php?id=2">Read More</a>
+              <a href="team/jessica-manuel.php">Read More</a>
             </div>
           </div>
             <div class="col-sm-4 col-sm-12 teamDiv">
@@ -376,7 +376,7 @@ if (isset($_POST['lName']))
               <h3 class="name">Shelley Scott-Mahoney</h3>
               <p class="title">Chief Marketing Officer</p>
               <p class="descr">As the Chief Marketing Officer for Invent2Vision, Shelley is constantly searching...</p>
-              <a href="theteam.php?id=3">Read More</a>
+              <a href="team/shelley-mahoney.php">Read More</a>
             </div>
           </div>
         </div>
@@ -386,7 +386,7 @@ if (isset($_POST['lName']))
               <h3 class="name">Griselda Leandro-Macias</h3>
               <p class="title">Executive Administrative Assistant</p>
               <p class="descr">Griselda Leandro is the Executive Administrative Assistant at Invent2Vision. She...</p>
-              <a href="theteam.php?id=4">Read More</a>
+              <a href="team/griselda-leandro.php">Read More</a>
             </div>
           </div>
           <div class="col-sm-3 col-sm-12 teamDiv">
@@ -394,7 +394,7 @@ if (isset($_POST['lName']))
               <h3 class="name">Cory Harris</h3>
               <p class="title">Music Director & Social Media Management</p>
               <p class="descr">Cory Harris is the Social Media manager for Invent2Vision. As...</p>
-              <a href="theteam.php?id=5">Read More</a>
+              <a href="team/cory-harris.php">Read More</a>
             </div>
           </div>
           <div class="col-sm-3 col-sm-12 teamDiv">
@@ -402,7 +402,7 @@ if (isset($_POST['lName']))
             <h3 class="name">Jessica "Scratch" Lee</h3>
             <p class="title">Graphic Designer</p>
             <p class="descr">Jessica Le is one of the Graphic Designers at Invent2Vision. Everyone calls her...</p>
-            <a href="theteam.php?id=6">Read More</a>
+            <a href="team/jessica-le.php">Read More</a>
           </div>
           </div>
           <div class="col-sm-3 col-sm-12 teamDiv">
@@ -410,7 +410,7 @@ if (isset($_POST['lName']))
               <h3 class="name">David Juarez</h3>
               <p class="title">Web &amp; Graphic Designer</p>
               <p class="descr">David Juarez is Invent2Vision's Web & Graphic Designer. He graduated from Mt Sierra...</p>
-              <a href="theteam.php?id=7">Read More</a>
+              <a href="team/david-juarez.php">Read More</a>
             </div>
           </div>
         </div>
@@ -477,6 +477,48 @@ if (isset($_POST['lName']))
 		</div>
     </section> -->
   </main>
-  <?php
-  include('footer.php');
-  ?>
+  <footer>
+  <div class="container">
+    <div class="col-lg-3">
+    <h3>Our Site</h3>
+    <ul>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="#form">Contact Us</a></li>
+      <li><a href="%20pages/terms.html">Terms and Conditions</a></li>
+      <li><a href="%20pages/privacy-policy.html">Privacy Policy</a></li>
+    </ul>
+    </div>
+    <div class="col-lg-3">
+    <h3>Let's Connect!</h3>
+    <ul>
+      <li>+1 (866) 810-1066</li>
+      <li>info@invent<span class="i2vRed">2</span>vision.com</li>
+      <li>
+      <ul class="sMediaList">
+        <li><a href="https://www.facebook.com/invent2vision/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://twitter.com/invent2vision" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.youtube.com/channel/UCO1mnBQVn2htaLr_nuBnH4Q" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://plus.google.com/u/4/103187553370973302372" target="_blank"><i class="fab fa-google-plus-square"></i></a></li>
+        <li><a href="https://www.instagram.com/invent2vision/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+      </li>
+    </ul>
+    </div>
+    <div class="col-lg-5">
+    <h3>Invent<span class="i2vRed">2</span>Vision</h3>
+    <p>Invent<span class="i2vRed">2</span>Vision is a Southern California startup cooperative, comprised of talented professionals who provide a vast assortment of exceptional skills, cutting-edge creativity, masterful production techniques, and services.</p>
+    <p>If you are looking for assistance with your invention ideas, professional assistance with your startup, support with a business setup or launch, or if you want to invest in the next great invention project, or maybe you would like to be apart of the I<span class="i2vRed">2</span>V team, all you have to do is contact us to schedule an appointment with a member of our I<span class="i2vRed">2</span>V team. We look forward to hearing from you!</p>
+    </div>
+  </div>
+  <div class="container copyright">
+    <p> &copy; <?php echo date("Y"); ?> Invent<span class="i2vRed">2</span>Vision</p>
+    <div class="hideme">
+    <a id="back-to-top" href="#"><i class="fas fa-angle-up"></i></a>
+    </div>
+  </div>
+  </footer>
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</html>
