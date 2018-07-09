@@ -60,6 +60,24 @@ $(".icon-bar").css("background-color", "#ee2524");
 $(".icon-bar").css("background-color", "#888");
 });
 
+
+function scrollTop () {
+        $('html,body').animate({
+        scrollTop: $('#nav').offset().top},'slow');
+}
+
+function scrollContact () {
+        $('html,body').animate({
+        scrollTop: $('#form').offset().top},'slow');
+}
+
+/*-------------------------------------
+| Smooth Scroll
+-------------------------------------*/
+
+$("#back-to-top").click(scrollTop);
+$(".c2A").click(scrollContact);
+
 });
 
 

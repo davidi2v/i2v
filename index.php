@@ -64,7 +64,7 @@ if (isset($_POST['lName']))
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
+    <nav id="nav" class="navbar navbar-inverse navbar-static-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -108,7 +108,7 @@ if (isset($_POST['lName']))
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="https://www.invent2vision.com/page/contact-us">General Information</a></li>
-                <li><a href="https://www.invent2vision.com/page/submit-an-idea">Idea Submissions</a></li>
+                <li><a href="#form">Idea Submissions</a></li>
               </ul>
             </li>
           </ul>
@@ -141,7 +141,7 @@ if (isset($_POST['lName']))
                 <h3>Thomas Alva Edison</h3>
                 <p>I invented the phonograph, the motion picture camera, and the light bulb.</p>
                 <p>How will you make your mark on history?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -151,7 +151,7 @@ if (isset($_POST['lName']))
                 <h3>Barbara Askins</h3>
                 <p>I invented a method to enhance underexposed photographic negatives used extensively by NASA and the medical industry.</p>
                 <p>What will your picture be in the history books?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -161,7 +161,7 @@ if (isset($_POST['lName']))
                 <h3>Orville & Wilbur Wright</h3>
                 <p>We invented the airplane.</p>
                 <p>To what heights will your invention take us?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -171,7 +171,7 @@ if (isset($_POST['lName']))
                 <h3>Grace Hopper</h3>
                 <p>I invented the first Compiler for computer software.</p>
                 <p>What's your program?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -181,7 +181,7 @@ if (isset($_POST['lName']))
                 <h3>Nikola Tesla</h3>
                 <p>I invented A/C power, the foundation of our modern power grid.</p>
                 <p>How will you power innovation?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -191,7 +191,7 @@ if (isset($_POST['lName']))
                 <h3>Leonardo DaVinci</h3>
                 <p>I invented the parachute, armored car, machine gun, and a precursor to the helicopter.</p>
                 <p>What will be your masterpiece?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -201,7 +201,7 @@ if (isset($_POST['lName']))
                 <h3>Hedy Lamarr</h3>
                 <p>I invented a torpedo guidance system which could not be jammed by enemy combatants, a technology which is now used in Wi-Fi, CDMA, and Bluetooth systems.</p>
                 <p>How will you make your mark on history?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -211,7 +211,7 @@ if (isset($_POST['lName']))
                 <h3>Alexander Graham Bell</h3>
                 <p>I invented the Telephone.</p>
                 <p>Can you hear me now?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -221,7 +221,7 @@ if (isset($_POST['lName']))
                 <h3>Elizabeth Lee Hazen & Rachel Fuller Brown</h3>
                 <p>We invented Nystatin, the first effective anti-fulngal medication.</p>
                 <p>How will you make the world a better place?</p>
-                <a class="c2A" href="https://www.invent2vision.com/page/submit-an-idea">Change the World!</a>
+                <a class="c2A" href="#form">Change the World!</a>
               </div>
             </div>
 
@@ -417,7 +417,7 @@ if (isset($_POST['lName']))
       </div>
     </section>
     <section>
-      <div class="container form">
+      <div id="form" class="container form">
         <div class="divHeader text-center">
           <h1>HAVE ANY QUESTIONS?</h1>
           <h3>CONTACT US TODAY AND WE WILL RESPOND AS SOON AS POSSIBLE!</h3>
