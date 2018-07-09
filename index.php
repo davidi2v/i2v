@@ -91,14 +91,14 @@ if (isset($_POST['lName']))
           			// 	 while ($row = mysqli_fetch_assoc($result)):
 
           		 ?>
-              <ul class="dropdown-menu">
-                <li><a href="/services.php?id=1">Product Development</a></li>
-                <li><a href="/services.php?id=2">Manufacturing</a></li>
-                <li><a href="/services.php?id=3">Marketing</a></li>
-                <li><a href="/services.php?id=4">Fulfillment</a></li>
-                <li><a href="/services.php?id=5">Financial Management</a></li>
-                <li><a href="/services.php?id=6">Business Development</a></li>
-              </ul>
+               <ul class="dropdown-menu">
+                 <li><a href="services.php?id=1">Product Development</a></li>
+                 <li><a href="services.php?id=2">Manufacturing</a></li>
+                 <li><a href="services.php?id=3">Marketing</a></li>
+                 <li><a href="services.php?id=4">Fulfillment</a></li>
+                 <li><a href="services.php?id=5">Financial Management</a></li>
+                 <li><a href="services.php?id=6">Business Development</a></li>
+               </ul>
               <?php
               // 	endwhile;
               // endif;
