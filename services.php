@@ -25,18 +25,6 @@
             <li><a href="index.php">Home</a></li>
             <li class="dropdown active">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services<span class="caret"></span></a>
-              <?php
-          			// if ($conn = mysqli_connect('localhost', 'root', 'root', 'Invent2Vision')):
-                //
-          			// 	//run the query
-          			// 	 $sql ="SELECT * FROM services";
-                //
-          			// 	 $result = mysqli_query($conn, $sql);
-                //
-          			// 	 //loop the results
-          			// 	 while ($row = mysqli_fetch_assoc($result)):
-
-          		 ?>
               <ul class="dropdown-menu">
                 <li><a href="services.php?id=1">Product Development</a></li>
                 <li><a href="services.php?id=2">Manufacturing</a></li>
@@ -45,10 +33,6 @@
                 <li><a href="services.php?id=5">Financial Management</a></li>
                 <li><a href="services.php?id=6">Business Development</a></li>
               </ul>
-              <?php
-              // 	endwhile;
-              // endif;
-              ?>
             </li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Us<span class="caret"></span></a>
