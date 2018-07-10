@@ -195,6 +195,8 @@ a {
 
   #myCarousel .carousel-inner .carousel-caption h3 {
     font-size: 28px;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 
