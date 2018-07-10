@@ -130,7 +130,7 @@ if (isset($_POST['lName']))
           <div class="carousel-inner">
 
             <div class="item active">
-              <img src="img/png/edison.png" alt="Thomas Alva Edison" style="width:100%;">
+              <!-- <img src="img/png/edison.png" alt="Thomas Alva Edison" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Thomas Alva Edison</h3>
                 <p>I invented the phonograph, the motion picture camera, and the light bulb.</p>
@@ -140,7 +140,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/askins.png" alt="Barbara Askins" style="width:100%;">
+              <!-- <img src="img/png/askins.png" alt="Barbara Askins" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Barbara Askins</h3>
                 <p>I invented a method to enhance underexposed photographic negatives used extensively by NASA and the medical industry.</p>
@@ -150,7 +150,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/wrights.png" alt="Orville & Wilbur Wright" style="width:100%;">
+              <!-- <img src="img/png/wrights.png" alt="Orville & Wilbur Wright" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Orville & Wilbur Wright</h3>
                 <p>We invented the airplane.</p>
@@ -160,7 +160,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/hopper.png" alt="Grace Hopper" style="width:100%;">
+              <!-- <img src="img/png/hopper.png" alt="Grace Hopper" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Grace Hopper</h3>
                 <p>I invented the first Compiler for computer software.</p>
@@ -170,7 +170,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/tesla.png" alt="Nikola Tesla" style="width:100%;">
+              <!-- <img src="img/png/tesla.png" alt="Nikola Tesla" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Nikola Tesla</h3>
                 <p>I invented A/C power, the foundation of our modern power grid.</p>
@@ -180,7 +180,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/davinci.png" alt="Leonardo DaVinci" style="width:100%;">
+              <!-- <img src="img/png/davinci.png" alt="Leonardo DaVinci" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Leonardo DaVinci</h3>
                 <p>I invented the parachute, armored car, machine gun, and a precursor to the helicopter.</p>
@@ -190,7 +190,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/lamarr.png" alt="Hedy Lamarr" style="width:100%;">
+              <!-- <img src="img/png/lamarr.png" alt="Hedy Lamarr" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Hedy Lamarr</h3>
                 <p>I invented a torpedo guidance system which could not be jammed by enemy combatants, a technology which is now used in Wi-Fi, CDMA, and Bluetooth systems.</p>
@@ -200,7 +200,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/grahambell.png" alt="Alexander Graham Bell" style="width:100%;">
+              <!-- <img src="img/png/grahambell.png" alt="Alexander Graham Bell" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Alexander Graham Bell</h3>
                 <p>I invented the Telephone.</p>
@@ -210,7 +210,7 @@ if (isset($_POST['lName']))
             </div>
 
             <div class="item">
-              <img src="img/png/hazenANDbrown.png" alt="Elizabeth Lee Hazen & Rachel Fuller Brown" style="width:100%;">
+              <!-- <img src="img/png/hazenANDbrown.png" alt="Elizabeth Lee Hazen & Rachel Fuller Brown" style="width:100%;"> -->
               <div class="carousel-caption">
                 <h3>Elizabeth Lee Hazen & Rachel Fuller Brown</h3>
                 <p>We invented Nystatin, the first effective anti-fulngal medication.</p>

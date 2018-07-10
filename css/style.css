@@ -223,6 +223,69 @@ body,
   height: 100%;
 }
 
+#myCarousel .item:nth-child(1) {
+  background: url('../img/png/edison.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(2) {
+  background: url('../img/png/askins.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(3) {
+  background: url('../img/png/wrights.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(4) {
+  background: url('../img/png/hopper.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(5) {
+  background: url('../img/png/tesla.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(6) {
+  background: url('../img/png/davinci.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(7) {
+  background: url('../img/png/lamarr.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(8) {
+  background: url('../img/png/grahambell.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#myCarousel .item:nth-child(9) {
+  background: url('../img/png/hazenANDbrown.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .c2A {
 background-color: #ee2524;
 color: #fff;
